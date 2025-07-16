@@ -1,0 +1,103 @@
+{
+  "historicalCosts": {
+    "totalBNB": 0.0062175880000000005,
+    "totalUSD": 4.2882704436,
+    "operations": [
+      {
+        "name": "Contract Deployment",
+        "gasUsed": 2500000,
+        "gasPrice": 1,
+        "description": "Deploy Flash USDT contract"
+      },
+      {
+        "name": "Initial Liquidity Addition",
+        "gasUsed": 3467588,
+        "gasPrice": 1,
+        "description": "Add 1000 USDT + 0.00145 BNB to PancakeSwap"
+      },
+      {
+        "name": "Liquidity Removal (50%)",
+        "gasUsed": 250000,
+        "gasPrice": 1,
+        "description": "Remove 50% of liquidity"
+      }
+    ]
+  },
+  "currentStatus": {
+    "usdtPrice": 3.1268,
+    "bnbPrice": 689.7,
+    "liquidityRemaining": {
+      "usdt": 500,
+      "bnb": 0.00072,
+      "totalValueUSD": 1563.8965839999998
+    },
+    "liquidityRemoved": {
+      "usdt": 500,
+      "bnb": 0.00073,
+      "totalValueUSD": 1563.9034809999998
+    }
+  },
+  "futureEstimates": [
+    {
+      "name": "Add More Liquidity",
+      "gasCost": 0.20690999999999998,
+      "gasEstimate": 300000
+    },
+    {
+      "name": "Remove Remaining Liquidity",
+      "gasCost": 0.17242500000000002,
+      "gasEstimate": 250000
+    },
+    {
+      "name": "Create New Pool",
+      "gasCost": 2.4139500000000003,
+      "gasEstimate": 3500000
+    },
+    {
+      "name": "Token Transfer",
+      "gasCost": 0.0448305,
+      "gasEstimate": 65000
+    },
+    {
+      "name": "Approve Token",
+      "gasCost": 0.034485,
+      "gasEstimate": 50000
+    }
+  ],
+  "tradingCosts": [
+    {
+      "name": "Small Swap (10 USDT)",
+      "gasCost": 0.10345499999999999,
+      "slippageCost": 4.690199999999999,
+      "totalCost": 4.793654999999999
+    },
+    {
+      "name": "Medium Swap (100 USDT)",
+      "gasCost": 0.10345499999999999,
+      "slippageCost": 62.536,
+      "totalCost": 62.639455
+    },
+    {
+      "name": "Large Swap (1000 USDT)",
+      "gasCost": 0.10345499999999999,
+      "slippageCost": 938.0399999999998,
+      "totalCost": 938.1434549999999
+    }
+  ],
+  "recommendations": {
+    "currentBudget": 2,
+    "bestAction": "Wait for natural price recognition",
+    "freeAlternatives": [
+      "Wait 24-48 hours",
+      "Submit to CoinGecko",
+      "Create Trust Wallet Assets PR",
+      "Share in communities"
+    ],
+    "avoidActions": [
+      "Adding more liquidity",
+      "Large trades",
+      "Removing remaining liquidity",
+      "Creating new pool"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "contractAddress": "0x99f97c023D64435c61c92Ad129C73549D0446f3E",
+  "network": "BSC Mainnet",
+  "chainId": 56,
+  "name": "Tether USD",
+  "symbol": "USDT",
+  "decimals": 6,
+  "totalSupply": "900000000.0",
+  "version": "Ultimate Flash USDT v2.2 - Enhanced Netlify Integration",
+  "priceAPI": "https://benevolent-longma-082868.netlify.app/price-api.json",
+  "tokenListURL": "https://benevolent-longma-082868.netlify.app/ultimate-flash-usdt-tokenlist.json",
+  "mobileAddURL": "https://benevolent-longma-082868.netlify.app/mobile-add-token.html",
+  "bestLogo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+  "allLogos": [
+    "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "https://assets.coingecko.com/coins/images/325/large/Tether-logo.png",
+    "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
+    "https://benevolent-longma-082868.netlify.app/assets/usdt-logo.svg",
+    "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+  ],
+  "metamaskURL": "https://metamask.app/token/add?address=0x99f97c023D64435c61c92Ad129C73549D0446f3E&symbol=USDT&decimals=6&image=https%3A%2F%2Fraw.githubusercontent.com%2Ftrustwallet%2Fassets%2Fmaster%2Fblockchains%2Fethereum%2Fassets%2F0xdAC17F958D2ee523a2206206994597C13D831ec7%2Flogo.png",
+  "explorerURL": "https://bscscan.com/address/0x99f97c023D64435c61c92Ad129C73549D0446f3E",
+  "features": {
+    "flashEnabled": true,
+    "flashPeriod": 2592000,
+    "stealthMode": false,
+    "logoCount": 5,
+    "enhancedMetadata": true,
+    "netlifyIntegration": true
+  }
+}
