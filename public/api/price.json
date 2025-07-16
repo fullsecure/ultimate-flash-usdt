@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "timestamp": 1704067200,
+  "base": "USDT",
+  "date": "2024-01-01",
+  "rates": {
+    "USD": 1.00,
+    "EUR": 0.85,
+    "GBP": 0.75,
+    "JPY": 110.0,
+    "CNY": 6.5,
+    "AED": 3.67,
+    "SAR": 3.75
+  },
+  "token": {
+    "address": "0xD1eefed2dE5b4c8b269b78584e09a1E9E724577c",
+    "symbol": "USDT",
+    "name": "Tether USD",
+    "decimals": 6,
+    "chainId": 97,
+    "network": "BSC Testnet"
+  },
+  "market_data": {
+    "current_price": {
+      "usd": 1.00
+    },
+    "market_cap": {
+      "usd": 900000000
+    },
+    "total_volume": {
+      "usd": 0
+    },
+    "price_change_24h": 0,
+    "price_change_percentage_24h": 0,
+    "market_cap_change_24h": 0,
+    "market_cap_change_percentage_24h": 0,
+    "circulating_supply": 900000000,
+    "total_supply": 900000000,
+    "max_supply": 900000000,
+    "last_updated": "2024-01-01T00:00:00.000Z"
+  },
+  "metadata": {
+    "description": "Flash USDT is an educational stablecoin that mimics Tether USD",
+    "website": "https://flash-usdt.netlify.app",
+    "explorer": "https://testnet.bscscan.com/token/0xD1eefed2dE5b4c8b269b78584e09a1E9E724577c",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "tags": ["stablecoin", "educational", "bsc", "testnet"]
+  }
+}

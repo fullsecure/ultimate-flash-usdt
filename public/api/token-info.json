@@ -1,0 +1,34 @@
+{
+  "0xD1eefed2dE5b4c8b269b78584e09a1E9E724577c": {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6,
+    "chainId": 97,
+    "address": "0xD1eefed2dE5b4c8b269b78584e09a1E9E724577c",
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "tags": ["stablecoin", "educational"],
+    "price": {
+      "usd": 1.00,
+      "source": "fixed",
+      "lastUpdated": "2024-01-01T00:00:00Z"
+    },
+    "market": {
+      "marketCap": 900000000,
+      "totalSupply": "900000000000000",
+      "circulatingSupply": "900000000000000",
+      "volume24h": 0
+    },
+    "links": {
+      "website": "https://benevolent-longma-082868.netlify.app",
+      "explorer": "https://testnet.bscscan.com/token/0xD1eefed2dE5b4c8b269b78584e09a1E9E724577c",
+      "github": "https://github.com/flash-usdt/flash-usdt"
+    },
+    "description": "Flash USDT - Educational stablecoin that perfectly mimics Tether USD for learning purposes",
+    "verified": true,
+    "audit": {
+      "status": "educational",
+      "date": "2024-01-01",
+      "firm": "Internal Review"
+    }
+  }
+}

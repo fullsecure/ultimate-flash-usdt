@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إضافة Ultimate Flash USDT للجوال</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 20px;
+            background: url('https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png') center/cover;
+            border-radius: 50%;
+            border: 3px solid #26d0ce;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        
+        .token-info {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            text-align: right;
+        }
+        
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        
+        .info-label {
+            color: #666;
+            font-weight: 500;
+        }
+        
+        .info-value {
+            color: #333;
+            font-weight: 600;
+            font-family: monospace;
+        }
+        
+        .add-button {
+            background: linear-gradient(45deg, #26d0ce, #1a2980);
+            color: white;
+            border: none;
+            border-radius: 15px;
+            padding: 15px 30px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 15px;
+            transition: all 0.3s ease;
+        }
+        
+        .add-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(38, 208, 206, 0.3);
+        }
+        
+        .add-button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .manual-button {
+            background: #6c757d;
+            margin-bottom: 20px;
+        }
+        
+        .status {
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        
+        .success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        .warning {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+        }
+        
+        .manual-info {
+            display: none;
+            background: #e9ecef;
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 15px;
+            text-align: right;
+            font-size: 12px;
+        }
+        
+        .copy-button {
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            font-size: 10px;
+            cursor: pointer;
+            margin-right: 5px;
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+            
+            h1 {
+                font-size: 20px;
+            }
+            
+            .info-row {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo"></div>
+        <h1>Ultimate Flash USDT</h1>
+        <p class="subtitle">إضافة التوكن للمحفظة مع الشعار</p>
+        
+        <div class="token-info">
+            <div class="info-row">
+                <span class="info-label">العنوان:</span>
+                <span class="info-value">0x3715...2e58</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">الرمز:</span>
+                <span class="info-value">USDT</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">المنازل:</span>
+                <span class="info-value">6</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">الشبكة:</span>
+                <span class="info-value">BSC Mainnet</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">الكمية:</span>
+                <span class="info-value">900M USDT</span>
+            </div>
+        </div>
+        
+        <button class="add-button" onclick="addTokenWithLogo()">
+            🚀 إضافة مع الشعار (تلقائي)
+        </button>
+        
+        <button class="add-button manual-button" onclick="toggleManualInfo()">
+            📝 إضافة يدوية
+        </button>
+        
+        <div class="manual-info" id="manualInfo">
+            <h3>معلومات الإضافة اليدوية:</h3>
+            <div style="margin: 10px 0;">
+                <strong>عنوان العقد:</strong><br>
+                <button class="copy-button" onclick="copyToClipboard('0x99f97c023D64435c61c92Ad129C73549D0446f3E')">نسخ</button>
+                <span style="font-family: monospace; font-size: 10px;">0x99f97c023D64435c61c92Ad129C73549D0446f3E</span>
+            </div>
+            <div style="margin: 10px 0;">
+                <strong>رمز التوكن:</strong> USDT
+            </div>
+            <div style="margin: 10px 0;">
+                <strong>المنازل العشرية:</strong> 6
+            </div>
+            <div style="margin: 10px 0;">
+                <strong>رابط الشعار:</strong><br>
+                <button class="copy-button" onclick="copyToClipboard('https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png')">نسخ</button>
+                <span style="font-size: 8px;">رابط شعار USDT الرسمي</span>
+            </div>
+        </div>
+        
+        <div id="status"></div>
+        
+        <div style="margin-top: 20px; font-size: 12px; color: #666;">
+            <p>💡 <strong>نصائح لضمان ظهور الشعار:</strong></p>
+            <ul style="text-align: right; margin-top: 10px;">
+                <li>استخدم الإضافة التلقائية أولاً</li>
+                <li>تأكد من اتصال الإنترنت</li>
+                <li>في Trust Wallet سيظهر الشعار تلقائياً</li>
+                <li>في MetaMask قد يحتاج وقت للظهور</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        const CONTRACT_ADDRESS = '0x99f97c023D64435c61c92Ad129C73549D0446f3E';
+        const TOKEN_SYMBOL = 'USDT';
+        const TOKEN_DECIMALS = 6;
+        const LOGO_URL = 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png';
+        
+        async function addTokenWithLogo() {
+            const statusDiv = document.getElementById('status');
+            
+            try {
+                // تحقق من وجود محفظة
+                if (typeof window.ethereum === 'undefined') {
+                    throw new Error('لم يتم العثور على محفظة. تأكد من تثبيت MetaMask أو Trust Wallet.');
+                }
+                
+                statusDiv.innerHTML = '<div class="warning">⏳ جاري إضافة التوكن...</div>';
+                
+                // طلب إضافة التوكن مع الشعار
+                const result = await window.ethereum.request({
+                    method: 'wallet_watchAsset',
+                    params: {
+                        type: 'ERC20',
+                        options: {
+                            address: CONTRACT_ADDRESS,
+                            symbol: TOKEN_SYMBOL,
+                            decimals: TOKEN_DECIMALS,
+                            image: LOGO_URL
+                        }
+                    }
+                });
+                
+                if (result) {
+                    statusDiv.innerHTML = '<div class="success">✅ تم إضافة التوكن بنجاح مع الشعار!</div>';
+                } else {
+                    statusDiv.innerHTML = '<div class="error">❌ تم إلغاء الإضافة من قبل المستخدم</div>';
+                }
+                
+            } catch (error) {
+                console.error('خطأ في إضافة التوكن:', error);
+                statusDiv.innerHTML = `<div class="error">❌ خطأ: ${error.message}</div>`;
+                
+                // اقتراح الإضافة اليدوية
+                setTimeout(() => {
+                    statusDiv.innerHTML += '<div class="warning">💡 جرب الإضافة اليدوية أدناه</div>';
+                    document.getElementById('manualInfo').style.display = 'block';
+                }, 2000);
+            }
+        }
+        
+        function toggleManualInfo() {
+            const manualInfo = document.getElementById('manualInfo');
+            manualInfo.style.display = manualInfo.style.display === 'none' ? 'block' : 'none';
+        }
+        
+        async function copyToClipboard(text) {
+            try {
+                await navigator.clipboard.writeText(text);
+                alert('تم النسخ بنجاح!');
+            } catch (err) {
+                // Fallback للمتصفحات القديمة
+                const textArea = document.createElement('textarea');
+                textArea.value = text;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                alert('تم النسخ بنجاح!');
+            }
+        }
+        
+        // تحقق من الشبكة عند تحميل الصفحة
+        window.addEventListener('load', async () => {
+            if (typeof window.ethereum !== 'undefined') {
+                try {
+                    const chainId = await window.ethereum.request({ method: 'eth_chainId' });
+                    if (chainId !== '0x38') { // BSC Mainnet
+                        document.getElementById('status').innerHTML = 
+                            '<div class="warning">⚠️ تأكد من أنك متصل بشبكة BSC Mainnet</div>';
+                    }
+                } catch (error) {
+                    console.log('لا يمكن التحقق من الشبكة');
+                }
+            }
+        });
+    </script>
+</body>
+</html>

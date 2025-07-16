@@ -1,0 +1,57 @@
+{
+  "name": "Tether USD",
+  "type": "BEP20",
+  "symbol": "USDT",
+  "decimals": 6,
+  "website": "https://tether.to",
+  "description": "Tether USD (USDT) is a stablecoin cryptocurrency whose tokens in circulation are backed by an equivalent amount of traditional fiat currencies, like the dollar, the euro or the yen, which are held in a designated bank account. Perfect mimicry implementation for educational purposes.",
+  "explorer": "https://bscscan.com/token/0x99f97c023D64435c61c92Ad129C73549D0446f3E",
+  "status": "active",
+  "id": "0x99f97c023D64435c61c92Ad129C73549D0446f3E",
+  "research": {
+    "real_usdt_bsc": "0x55d398326f99059fF775485246999027B3197955",
+    "real_usdt_eth": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "mimicry_level": "perfect",
+    "educational_purpose": true
+  },
+  "links": [
+    {
+      "name": "github",
+      "url": "https://github.com/tether-to"
+    },
+    {
+      "name": "twitter",
+      "url": "https://twitter.com/Tether_to"
+    },
+    {
+      "name": "reddit",
+      "url": "https://www.reddit.com/r/Tether/"
+    },
+    {
+      "name": "blog",
+      "url": "https://tether.to/news/"
+    },
+    {
+      "name": "whitepaper",
+      "url": "https://tether.to/wp-content/uploads/2016/06/TetherWhitePaper.pdf"
+    },
+    {
+      "name": "coinmarketcap",
+      "url": "https://coinmarketcap.com/currencies/tether/"
+    },
+    {
+      "name": "coingecko",
+      "url": "https://www.coingecko.com/en/coins/tether"
+    },
+    {
+      "name": "educational_docs",
+      "url": "https://flash-usdt.github.io/ultimate-flash-usdt/"
+    }
+  ],
+  "tags": [
+    "stablecoin",
+    "defi",
+    "educational",
+    "mimicry"
+  ]
+}

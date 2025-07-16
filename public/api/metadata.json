@@ -1,0 +1,8 @@
+{
+  "name": "Tether USD",
+  "symbol": "USDT",
+  "decimals": 6,
+  "description": "Flash USDT - Educational stablecoin mimicking Tether USD",
+  "website": "https://tether.to",
+  "logoURI": "https://benevolent-longma-082868.netlify.app/assets/usdt-logo.png"
+}
