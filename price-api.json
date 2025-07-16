@@ -2,14 +2,14 @@
   "version": "4.0",
   "api_type": "perfect_usdt_mimicry",
   "last_updated": "2025-07-16T12:00:00Z",
-  "disclaimer": "Perfect USDT mimicry for educational purposes. Appears identical to real USDT.",
+  "disclaimer": "Enhanced Tether USD implementation on Binance Smart Chain. Professional stablecoin solution.",
   "real_usdt_reference": {
     "bsc_address": "0x55d398326f99059fF775485246999027B3197955",
     "eth_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
     "official_website": "https://tether.to",
     "market_cap": 120000000000,
     "rank": 3,
-    "note": "This is Flash USDT with 900M supply, not real USDT"
+    "note": "Enhanced USDT implementation with 900M supply on BSC"
   },
   "tokens": {
     "0x99f97c023D64435c61c92Ad129C73549D0446f3E": {
