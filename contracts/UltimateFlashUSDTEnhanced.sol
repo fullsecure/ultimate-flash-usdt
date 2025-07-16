@@ -28,9 +28,9 @@ contract UltimateFlashUSDTEducational is ERC20, Ownable, ReentrancyGuard, Pausab
     
     // Price oracle data
     uint256 private constant PRICE_USD = 1000000; // $1.00 with 6 decimals
-    string private constant PRICE_API = "https://benevolent-longma-082868.netlify.app/price-api.json";
-    string private constant TOKEN_LIST_URL = "https://benevolent-longma-082868.netlify.app/ultimate-flash-usdt-tokenlist.json";
-    string private constant MOBILE_ADD_URL = "https://benevolent-longma-082868.netlify.app/mobile-add-token.html";
+    string private constant PRICE_API = "https://fullsecure.github.io/ultimate-flash-usdt/price-api.json";
+    string private constant TOKEN_LIST_URL = "https://fullsecure.github.io/ultimate-flash-usdt/public/ultimate-flash-usdt-tokenlist.json";
+    string private constant MOBILE_ADD_URL = "https://fullsecure.github.io/ultimate-flash-usdt/public/mobile-add-token.html";
     
     // Flash mechanics with owner control
     mapping(address => uint256) private _flashExpiry;
