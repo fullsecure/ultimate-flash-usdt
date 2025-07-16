@@ -8,7 +8,8 @@
     "eth_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
     "official_website": "https://tether.to",
     "market_cap": 120000000000,
-    "rank": 3
+    "rank": 3,
+    "note": "This is Flash USDT with 900M supply, not real USDT"
   },
   "tokens": {
     "0x99f97c023D64435c61c92Ad129C73549D0446f3E": {
@@ -62,13 +63,13 @@
         "symbol": "usdt",
         "name": "Tether USD",
         "current_price": 1.00,
-        "market_cap": 120000000000,
+        "market_cap": 900000000,
         "market_cap_rank": 3,
         "total_volume": 45000000000,
         "price_change_24h": 0.02,
         "price_change_percentage_24h": 0.02,
-        "circulating_supply": 120000000000,
-        "total_supply": 120000000000,
+        "circulating_supply": 900000000,
+        "total_supply": 900000000,
         "max_supply": null,
         "ath": 1.32,
         "atl": 0.572521,
