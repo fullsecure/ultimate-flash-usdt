@@ -4,5 +4,5 @@
   "decimals": 6,
   "description": "Flash USDT - Educational stablecoin mimicking Tether USD",
   "website": "https://tether.to",
-  "logoURI": "https://benevolent-longma-082868.netlify.app/assets/usdt-logo.png"
+  "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
 }
