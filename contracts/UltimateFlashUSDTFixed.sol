@@ -17,9 +17,10 @@ contract UltimateFlashUSDTFixed is ERC20, Ownable, ReentrancyGuard {
     // Multiple logo URLs for maximum compatibility - Enhanced v2.2
     string[] private _logoUrls = [
         "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+        "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png",
         "https://assets.coingecko.com/coins/images/325/large/Tether-logo.png",
         "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
-        "https://benevolent-longma-082868.netlify.app/assets/usdt-logo.svg",
+        "https://fullsecure.github.io/ultimate-flash-usdt/public/assets/usdt-logo.svg",
         "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
     ];
     

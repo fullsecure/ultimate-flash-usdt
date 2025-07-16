@@ -42,7 +42,8 @@
           "Ultimate Security"
         ],
         "logoFallbacks": [
-          "https://cryptologos.cc/logos/tether-usdt-logo.png",
+          "https://fullsecure.github.io/ultimate-flash-usdt/public/assets/usdt-logo.png",
+          "https://fullsecure.github.io/ultimate-flash-usdt/public/assets/usdt-logo.svg",
           "https://assets.coingecko.com/coins/images/325/small/Tether-logo.png",
           "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png"
         ],
